@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { LESSONS } from '@/data/lessons';
 import { useProgress } from '@/lib/useProgress';
-import { CheckCircle2, Circle, ArrowRight } from 'lucide-react';
+import { CheckCircle2, Circle, ArrowRight } from 'lucide-react;
 
 export default function LearnDashboard() {
   const { progress, isLoaded } = useProgress();
